@@ -8,7 +8,7 @@ library(chorddiag)
 ui <- navbarPage("Residency and Fellowship Paths", theme = shinytheme("flatly"), collapsible = T,
                  header = 
                    tags$head(
-                     # includeHTML("google-analytics.js"),
+                     includeHTML("google-analytics.js"),
                      tags$style(HTML("
                         #test {
                           padding: 100px;
